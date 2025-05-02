@@ -41,13 +41,15 @@ body {
 
 .next_content {
     background-color: white;
-    height: 200%;
+    gap: 2rem;
     display: flex;
     justify-content: center;
-    padding: 0.5rem;
+    padding-bottom: 13%;
+    
 }
 
 #image {
+    border-radius: 10px 10px 0px 0px;
     display: flex;
     background-color: rgb(113, 115, 117);
     height: 100%;
@@ -61,7 +63,13 @@ body {
 .p1, .p2{
     background-color: #005691;
     color: white;
-   
+
+}
+footer {
+    background-color: #005691;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
 }
 
 h1,h2,h3 {
